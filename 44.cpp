@@ -39,7 +39,7 @@ int main() {
 		
 		for(int j = 1; j <= n; j++) {
 			visited[j] = false;
-			vc[j].clear();
+			vc[j] = 0;
 			d[j] = -1;
 		}
 		
